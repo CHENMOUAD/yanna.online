@@ -487,7 +487,7 @@
             
             let progress = 0;
             const interval = setInterval(() => {
-                progress += 1;
+                progress += 3;
                 const dashoffset = 377 - (377 * progress / 100);
                 progressCircle.style.strokeDashoffset = dashoffset;
                 progressText.textContent = `${progress}%`;
